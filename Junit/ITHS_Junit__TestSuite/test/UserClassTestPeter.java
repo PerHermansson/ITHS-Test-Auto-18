@@ -23,7 +23,7 @@ public class UserClassTestPeter{
     public void testSetA(){
         uc.setA(94);
         String in = uc.getUserId();
-        assertEquals("940", in);
+        assertEquals("943", in);
     }
 
     @Test
