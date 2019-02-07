@@ -17,7 +17,7 @@ public class ValidatorTestImpl_Shahzad extends ValidatorTest {
     public void test_isValidEmail_string() {
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isValidEmail("Hej.du.glade");
+        result = myValidator.isValidEmail("Hej@du.gl");
         assertTrue(result);
 
     }
