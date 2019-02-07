@@ -14,10 +14,20 @@ public class UserClassTest_torgny {
 
     @Test
     public void setA() {
+        userClass.setA(42);
+
+        String r = userClass.getUserId();
+
+        assertEquals("423", r);
     }
 
     @Test
     public void setB() {
+        userClass.setB(42);
+
+        String r = userClass.getUserId();
+
+        assertEquals("042", r);
     }
 
     @Test
