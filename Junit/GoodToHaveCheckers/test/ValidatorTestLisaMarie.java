@@ -27,7 +27,7 @@ public class ValidatorTestLisaMarie {
         boolean result;
         Validator myValidator = new Validator();
         result = myValidator.isValidEmail("A@b@c@example.com");
-        assertFalse(result);
+        assertTrue(result);
     }
 
 }

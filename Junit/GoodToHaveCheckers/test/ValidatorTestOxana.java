@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ValidatorTestDaniel {
+public class ValidatorTestOxana {
 
     @Before
     public void setUp() throws Exception {
@@ -15,33 +15,38 @@ public class ValidatorTestDaniel {
     }
 
     @Test
-    public void test_isValidEmail_integer() {
+    public void isValidEmailTest1() {
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isValidEmail(234665);
+        result = myValidator.isValidEmail("oxana@mail.com");
+        assertTrue(result);
+    }
+
+    @Test
+    public void isValidEmailTest2() {
+        boolean result;
+        Validator myValidator = new Validator();
+        result = myValidator.isValidEmail("oxanamail.com");
         assertFalse(result);
     }
 
     @Test
-    public void test_isValidEmail_string() {
+    public void isValidEmailTest3() {
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isValidEmail("simple@example.com");
-        assertTrue(result);
-    }
-    @Test
-    public void test_isNotValidEmail_string(){
-        boolean result;
-        Validator myValidator = new Validator();
-        result = myValidator.isValidEmail("Abc.example.com");
+        result = myValidator.isValidEmail(1234);
         assertFalse(result);
     }
+
     @Test
-    public void test_shortString(){
+    public void isValidEmailTest4() {
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isValidEmail("ab");
-        assertTrue(result);
+        result = myValidator.isValidEmail("amhdf///kjqwbd90q83");
+        assertFalse(result);
     }
+
+
+
 
 }
