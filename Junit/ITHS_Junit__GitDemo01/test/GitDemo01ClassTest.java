@@ -51,7 +51,11 @@ public class GitDemo01ClassTest {
         assertTrue(result==0);
     }
 
-
+    @Test
+    public void test_Tony() {
+        GitDemo01Class myObject = new GitDemo01Class();
+        System.out.println("Kors i taket");
+    }
 
     public void johan() {
         System.out.println("SHAZAD STAHP!");
