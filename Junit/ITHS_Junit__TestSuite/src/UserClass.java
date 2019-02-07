@@ -1,11 +1,9 @@
 public class UserClass {
 
-
     int a;
     int b;
 
-    public UserClass ()
-    {
+    public UserClass () {
         a = 0;
         b = 3;
 
@@ -18,8 +16,7 @@ public class UserClass {
         this.b = b;
     }
 
-    public String  getUserId()
-    {
+    public String getUserId() {
         String a_str = new String();
         String b_str = new String();
 
@@ -27,5 +24,4 @@ public class UserClass {
         b_str = Integer.toString(b);
         return a_str + b_str;
     }
-
 }
