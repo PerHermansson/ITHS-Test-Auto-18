@@ -14,5 +14,6 @@ public class UserClassTest_Josefine {
 
     @Test
     public void getUserId() {
+        System.out.println("Hej");
     }
 }
