@@ -46,6 +46,14 @@ public class GitDemo01ClassTest {
     }
 
     @Test
+
+    public void test_hans_test() {
+        GitDemo01Class myObject =new GitDemo01Class ();
+        int result= myObject.alwayszero(33, 33);
+        assertFalse(result==1);
+    }
+}
+
     public void shahzad() {
         GitDemo01Class myObject =new GitDemo01Class ();
         int result= myObject.alwayszero(33, 33);
@@ -67,4 +75,5 @@ public class GitDemo01ClassTest {
         assertTrue(result==0);
     */}
 }
+
 
