@@ -36,5 +36,12 @@ public class ValidatorTestDaniel {
         result = myValidator.isValidEmail("Abc.example.com");
         assertFalse(result);
     }
+    @Test
+    public void test_shortString(){
+        boolean result;
+        Validator myValidator = new Validator();
+        result = myValidator.isValidEmail("ab");
+        assertFalse(result);
+    }
 
 }
