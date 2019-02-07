@@ -36,8 +36,11 @@ public class GitDemo01ClassTest {
         int result= myObject.alwayszero(33, 33);
         assertTrue(result==0);
     }
+
     @Test
-    public void test_Anders_helloWorld() {
-        System.out.println("Tjena!");
+    public void andersEklund() {
+        GitDemo01Class myObject =new GitDemo01Class ();
+        int result= myObject.alwayszero(33, 33);
+        assertTrue(result==0);
     }
 }
