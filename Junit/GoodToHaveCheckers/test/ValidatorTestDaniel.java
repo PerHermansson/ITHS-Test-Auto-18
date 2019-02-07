@@ -20,7 +20,6 @@ public class ValidatorTestDaniel {
         Validator myValidator = new Validator();
         result = myValidator.isValidEmail(2345);
         assertFalse(result);
-
     }
 
     @Test
@@ -28,7 +27,7 @@ public class ValidatorTestDaniel {
         boolean result;
         Validator myValidator = new Validator();
         result = myValidator.isValidEmail("simple@example.com");
-        assertFalse(result);
+        assertTrue(result);
     }
     @Test
     public void test_isNotValidEmail_string(){
