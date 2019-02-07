@@ -39,7 +39,7 @@ public class GitDemo01ClassTest {
     @Test
     public void test_lisamarie() {
         GitDemo01Class myObject =new GitDemo01Class ();
-        int result= myObject.alwayszero(60, 30);
+        int result= myObject.alwayszero(60, 40);
         assertTrue(result==0);
     }
 }
