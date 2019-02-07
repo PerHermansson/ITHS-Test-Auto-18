@@ -14,6 +14,11 @@ public class UserClassTest_torgny {
 
     @Test
     public void setA() {
+        userClass.setA(42);
+
+        String r = userClass.getUserId();
+
+        assertEquals("423", r);
     }
 
     @Test
