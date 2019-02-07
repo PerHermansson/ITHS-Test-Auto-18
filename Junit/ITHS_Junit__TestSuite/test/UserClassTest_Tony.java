@@ -1,6 +1,7 @@
+
 import static org.junit.Assert.*;
 
-public class UserClassTest_attempt1 {
+public class UserClassTest_Tony {
 
     @org.junit.Before
     public void setUp() throws Exception {
