@@ -5,4 +5,6 @@ public class Validator {
         return false;
     }
 
+    public boolean isNotValidEmail (Object addresstocheck){return true;}
+
 }
