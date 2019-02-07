@@ -41,8 +41,7 @@ public class ValidatorTest_torgny {
             "just\"not\"right@example.com",
             "this is\"not\\allowed@example.com",
             "this\\ still\\\"not\\allowed@example.com",
-            "1234567890123456789012345678901234567890123456789012345678901234+x@example.com",
-            "a@"
+            "1234567890123456789012345678901234567890123456789012345678901234+x@example.com"
     };
 
     /*
@@ -64,19 +63,37 @@ public class ValidatorTest_torgny {
     }
 
     @Test
-    public void verifyEmail() {
+    public void verifyWikipediaExamples() {
         boolean result = validator.isValidEmail(address);
 
         assertEquals(expected, result);
     }
 
-    /*
-     * Verifiera att false returneras för en kort adress. Denna metod ignorerar såklart parametrar.
-     */
     @Test
-    public void shortAddress() {
-        boolean result = validator.isValidEmail("a@");
+    public void verifyEmptyAddressIsInvalid() {
+        boolean result = validator.isValidEmail("");
 
-        assertEquals(false, result);
+        assertFalse(result);
+    }
+
+    @Test
+    public void verifyTooShortAddressIsInvalid() {
+        boolean result = validator.isValidEmail("a@b.c");
+
+        assertFalse(result);
+    }
+
+    @Test
+    public void verifyLowboundAddressIsValid() {
+        boolean result = validator.isValidEmail("a@b.co");
+
+        assertTrue(result);
+    }
+
+    @Test
+    public void verifyNoAtIsInvalid() {
+        boolean result = validator.isValidEmail("ab.c");
+
+        assertFalse(result);
     }
 }
