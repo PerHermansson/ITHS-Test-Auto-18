@@ -17,4 +17,11 @@ public class ValidatorTest_torgny {
 
         assertTrue(result);
     }
+
+    @Test
+    public void isValidEmail_ivalid() {
+        boolean result = validator.isValidEmail("Abc.example.com");
+
+        assertFalse(result);
+    }
 }
