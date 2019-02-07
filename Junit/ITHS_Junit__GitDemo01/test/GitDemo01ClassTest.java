@@ -36,7 +36,7 @@ public class GitDemo01ClassTest {
         int result= myObject.alwayszero(33, 33);
         assertTrue(result==0);
     }
-<<<<<<< HEAD
+
 
     @Test
     public void testZeljka() {
@@ -51,8 +51,6 @@ public class GitDemo01ClassTest {
         assertTrue(result==0);
 
     }
-=======
->>>>>>> origin/develop
 
 
     @Test
@@ -62,15 +60,14 @@ public class GitDemo01ClassTest {
         assertTrue(result==0);
     }
     @Test
-<<<<<<< HEAD
+
     public void test_Daniel() {
         GitDemo01Class myObject =new GitDemo01Class ();
         int result= myObject.alwayszero(33, 33);
         assertTrue(result==0);
     }
 
-
-=======
+    @Test
     public void johan() {
         System.out.println("SHAZAD STAHP!");
         /*GitDemo01Class myObject =new GitDemo01Class ();
@@ -78,4 +75,3 @@ public class GitDemo01ClassTest {
         assertTrue(result==0);
     */}
 }
->>>>>>> origin/develop
