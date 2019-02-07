@@ -30,6 +30,13 @@ public class GitDemo01ClassTest {
         int result= myObject.alwayszero(99, 0);
         assertTrue(result==0);
     }
+    @Test
+    public void test_lady_hiccups_edit(){
+        GitDemo01Class diafragm =new GitDemo01Class ();
+        int result= diafragm.alwayszero(42, 42);
+        assertTrue(result==0);
+
+    }
 
     @Test
     public void test_alwayszero_normalCase3() {
