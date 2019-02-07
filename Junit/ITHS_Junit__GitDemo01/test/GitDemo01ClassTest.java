@@ -6,12 +6,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class GitDemo01ClassTest {
-    private GitDemo01Class myObject;
 
     @Before
     public void setUp() throws Exception {
         System.out.println("Before - SetUp executed");
-        myObject = new GitDemo01Class();
     }
 
     @After
@@ -20,23 +18,32 @@ public class GitDemo01ClassTest {
     }
 
     @Test
-    public void test_Tony() {
-        GitDemo01Class myObject = new GitDemo01Class();
-        System.out.println("Fantastiskt");
-    }
-
-    @Test
     public void test_alwayszero_normalCase() {
+        GitDemo01Class myObject =new GitDemo01Class ();
         int result= myObject.alwayszero(10, 5);
         assertTrue(result==0);
     }
 
     @Test
     public void test_alwayszero_normalCase2() {
+        GitDemo01Class myObject =new GitDemo01Class ();
         int result= myObject.alwayszero(99, 0);
         assertTrue(result==0);
     }
+    @Test
+    public void test_alwayszero_normalCase3() {
+        GitDemo01Class myObject =new GitDemo01Class ();
+        int result= myObject.alwayszero(33, 33);
+        assertTrue(result==0);
+    }
+<<<<<<< HEAD
 
+    @Test
+    public void testZeljka() {
+        GitDemo01Class myObject =new GitDemo01Class ();
+        int result= myObject.alwayszero(33, 33);
+        assertTrue(result==0);
+    }
     @Test
     public void test_lady_hiccups_edit(){
         GitDemo01Class diafragm =new GitDemo01Class ();
@@ -44,12 +51,9 @@ public class GitDemo01ClassTest {
         assertTrue(result==0);
 
     }
+=======
+>>>>>>> origin/develop
 
-    @Test
-    public void test_alwayszero_normalCase3() {
-        int result= myObject.alwayszero(33, 33);
-        assertTrue(result==0);
-    }
 
     @Test
     public void shahzad() {
@@ -58,6 +62,7 @@ public class GitDemo01ClassTest {
         assertTrue(result==0);
     }
     @Test
+<<<<<<< HEAD
     public void test_Daniel() {
         GitDemo01Class myObject =new GitDemo01Class ();
         int result= myObject.alwayszero(33, 33);
@@ -65,3 +70,12 @@ public class GitDemo01ClassTest {
     }
 
 
+=======
+    public void johan() {
+        System.out.println("SHAZAD STAHP!");
+        /*GitDemo01Class myObject =new GitDemo01Class ();
+        int result= myObject.alwayszero(33, 33);
+        assertTrue(result==0);
+    */}
+}
+>>>>>>> origin/develop
