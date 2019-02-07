@@ -11,7 +11,6 @@ public class ValidatorTestLisaMarie {
         Validator myValidator = new Validator();
         result = myValidator.isValidEmail(2345);
         assertFalse(result);
-        System.out.println("Java");
 
     }
 
