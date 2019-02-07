@@ -20,7 +20,7 @@ public class TonyDTest {
                 "example@s.example\n" +
                 "\" \"@example.org\n" +
                 "\"john..doe\"@example.org");
-        assertFalse(result);
+        assertTrue(result);
 
     }
 
