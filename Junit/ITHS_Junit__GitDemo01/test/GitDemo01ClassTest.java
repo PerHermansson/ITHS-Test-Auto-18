@@ -115,6 +115,10 @@ public class GitDemo01ClassTest {
     public void peter(){
         System.out.println("Varför lyser inga stjärnor på himlen för oss");
     }
+    @Test
+    public void Tony(){
+        System.out.println("DU kan vara en stjärna! :@");
+    }
 }
 
 
