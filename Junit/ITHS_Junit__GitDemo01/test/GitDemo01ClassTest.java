@@ -119,6 +119,11 @@ public class GitDemo01ClassTest {
     public void Tony(){
         System.out.println("DU kan vara en stjärna! :@");
     }
+
+    @Test
+    public void Majid(){
+        System.out.println("Lets see!");
+    }
 }
 
 
