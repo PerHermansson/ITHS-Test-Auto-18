@@ -6,5 +6,6 @@ public class UserClassTest_attempt2 {
 
     @Test
     public void getUserId() {
+
     }
 }
