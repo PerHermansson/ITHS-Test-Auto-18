@@ -46,6 +46,35 @@ public class ValidatorTestOxana {
         assertFalse(result);
     }
 
+    @Test
+    public void isValidEmailTest5() {
+        boolean result;
+        Validator myValidator = new Validator();
+        String[] inValidEmail = {"Abc.example.com", "A@", "aakjskl....example.com","xcfvzfvfvfzdbvfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffgdfgfgdfgfgfgfgfgffffffffffffffffffffffffffffffffffff"};
+        for (String a:inValidEmail) {
+            result = myValidator.isValidEmail(a);
+            System.out.println(result);
+            assertFalse(result);
+        }
+        /*result = myValidator.isValidEmail(inValidEmail[0]);
+        System.out.println(result);
+        assertFalse(result);
+        result = myValidator.isValidEmail(inValidEmail[1]);
+        System.out.println(result);
+        assertFalse(result);
+        result = myValidator.isValidEmail(inValidEmail[2]);
+        System.out.println(result);
+        assertFalse(result);
+        result = myValidator.isValidEmail(inValidEmail[3]);
+        System.out.println(result);
+        assertFalse(result);*/
+
+
+
+
+
+    }
+
 
 
 
