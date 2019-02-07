@@ -1,4 +1,4 @@
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
+//import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -28,6 +28,26 @@ public class UserClassTest_torgny {
         String r = userClass.getUserId();
 
         assertEquals("042", r);
+    }
+
+    @Test
+    public void setABa() {
+        userClass.setA(42);
+        userClass.setB(42);
+
+        String r = userClass.getUserId();
+
+        assertEquals("4242", r);
+    }
+
+    @Test
+    public void setABb() {
+        userClass.setB(42);
+        userClass.setA(42);
+
+        String r = userClass.getUserId();
+
+        assertEquals("4242", r);
     }
 
     @Test
