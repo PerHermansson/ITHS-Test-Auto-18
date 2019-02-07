@@ -16,6 +16,6 @@ public class UserClassTest_Anders {
 
     @Test
     public void AndersHelloWorld() {
-        System.out.println("Hello");
+        System.out.println("Hello f");
     }
 }
