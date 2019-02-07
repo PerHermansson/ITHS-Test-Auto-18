@@ -31,9 +31,19 @@ public class UserClassTest_torgny {
     }
 
     @Test
-    public void setAB() {
+    public void setABa() {
         userClass.setA(42);
         userClass.setB(42);
+
+        String r = userClass.getUserId();
+
+        assertEquals("4242", r);
+    }
+
+    @Test
+    public void setABb() {
+        userClass.setB(42);
+        userClass.setA(42);
 
         String r = userClass.getUserId();
 
