@@ -8,6 +8,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< Updated upstream
+    <orderEntry type="library" name="lib" level="project" />
+=======
     <orderEntry type="module-library" scope="TEST">
       <library name="JUnit4">
         <CLASSES>
@@ -18,5 +21,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+>>>>>>> Stashed changes
   </component>
 </module>
