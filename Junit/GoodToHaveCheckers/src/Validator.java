@@ -9,6 +9,13 @@ public class Validator {
     public boolean isValidEmail(String addresstocheck)
     {
         boolean result=false;
+
+        if (addresstocheck.length()<3){
+            result = false;
+        }
+        if (addresstocheck.length()>320){
+            result = false;
+        }
         if (addresstocheck.contains("@")){
             result = true;
         }

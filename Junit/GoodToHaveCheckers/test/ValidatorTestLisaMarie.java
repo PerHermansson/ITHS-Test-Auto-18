@@ -18,7 +18,7 @@ public class ValidatorTestLisaMarie {
     public void test_isValidEmail_string() {
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isValidEmail("simplexample.com");
+        result = myValidator.isValidEmail("Hej");
         assertFalse(result);
 
     }
@@ -26,15 +26,8 @@ public class ValidatorTestLisaMarie {
     public void test_isNotValidEmail_string() {
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isValidEmail("Ab@c@example.com");
+        result = myValidator.isValidEmail("A@b@c@example.com");
         assertTrue(result);
-    }
-    @Test
-    public void shortString() {
-        boolean result;
-        Validator myValidator = new Validator();
-        result = myValidator.isValidEmail("ab");
-        assertFalse(result);
     }
 
 }
