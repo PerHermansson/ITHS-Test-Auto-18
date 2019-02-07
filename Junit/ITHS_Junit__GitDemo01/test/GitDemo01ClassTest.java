@@ -57,21 +57,10 @@ public class GitDemo01ClassTest {
         assertTrue(result==0);
     }
     @Test
-    public void test_lisamarie() {
+    public void test_Daniel() {
         GitDemo01Class myObject =new GitDemo01Class ();
-        int result= myObject.alwayszero(60, 30);
+        int result= myObject.alwayszero(33, 33);
         assertTrue(result==0);
     }
 
-    @Test
-    public void test_ferdrikNiemi() {
-        System.out.println("Hallåjhej");
-    }
-    @Test
-    public void test_johan(){
-        GitDemo01Class myObject = new GitDemo01Class();
-        int result = myObject.alwayszero(1900, 1900);
-        assertTrue(result == 0);
-    }
 
-}
