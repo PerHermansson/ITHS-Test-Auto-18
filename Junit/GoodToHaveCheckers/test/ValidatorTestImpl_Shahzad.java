@@ -8,7 +8,7 @@ public class ValidatorTestImpl_Shahzad extends ValidatorTest {
     public void test_isValidEmail_integer() {
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isValidEmail(2345);
+        result = myValidator.isValidEmail("sd");
         assertFalse(result);
 
     }
@@ -17,7 +17,7 @@ public class ValidatorTestImpl_Shahzad extends ValidatorTest {
     public void test_isValidEmail_string() {
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isValidEmail("Hej@du.gl");
+        result = myValidator.isValidEmail("Hej@du.glade");
         assertTrue(result);
 
     }
