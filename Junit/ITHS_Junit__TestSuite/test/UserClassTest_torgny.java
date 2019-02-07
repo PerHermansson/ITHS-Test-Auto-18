@@ -1,4 +1,4 @@
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
+//import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
 import org.junit.Before;
 import org.junit.Test;
 
