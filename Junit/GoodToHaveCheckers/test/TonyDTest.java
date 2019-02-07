@@ -28,7 +28,7 @@ public class TonyDTest {
     public void test_isValidEmail_false() {
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isValidEmail("Abc.example.com (no @ character)\n" +
+        result = myValidator.isValidEmail("Abc.example.com \n" +
                 "A@b@c@example.com\n" +
                 "a\"b(c)d,e:f;g<h>i[j\\k]l@example.com\n" +
                 "just\"not\"right@example.com\n" +
