@@ -42,6 +42,7 @@ public class ValidatorTest_torgny {
             "this is\"not\\allowed@example.com",
             "this\\ still\\\"not\\allowed@example.com",
             "1234567890123456789012345678901234567890123456789012345678901234+x@example.com",
+            "a@"
     };
 
     @Parameterized.Parameters
@@ -64,5 +65,15 @@ public class ValidatorTest_torgny {
         boolean result = validator.isValidEmail(address);
 
         assertEquals(expected, result);
+    }
+
+    /*
+     * Verifiera att false returneras för en kort adress. Denna metod ignorerar såklart parametrar.
+     */
+    @Test
+    public void shortAddress() {
+        boolean result = validator.isValidEmail("a@");
+
+        assertEquals(false, result);
     }
 }
