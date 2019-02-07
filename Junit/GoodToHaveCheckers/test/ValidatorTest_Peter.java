@@ -27,6 +27,7 @@ public class ValidatorTest_Peter {
         for (String i: validEmails) {
             result = myValidator.isValidEmail(validEmails);
             assertFalse(result);
+            System.out.println("Entry: "+i+", is ok!");
         }
 
     }
@@ -36,6 +37,7 @@ public class ValidatorTest_Peter {
         for (String i : validEmails) {
             result = myValidator.isValidEmail(validEmails);
             assertFalse(result);
+            System.out.println("Entry: "+i+", is ok!");
         }
     }
 }
