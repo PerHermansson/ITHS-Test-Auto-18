@@ -56,23 +56,7 @@ public class ValidatorTestOxana {
             System.out.println(result);
             assertFalse(result);
         }
-        /*result = myValidator.isValidEmail(inValidEmail[0]);
-        System.out.println(result);
-        assertFalse(result);
-        result = myValidator.isValidEmail(inValidEmail[1]);
-        System.out.println(result);
-        assertFalse(result);
-        result = myValidator.isValidEmail(inValidEmail[2]);
-        System.out.println(result);
-        assertFalse(result);
-        result = myValidator.isValidEmail(inValidEmail[3]);
-        System.out.println(result);
-        assertFalse(result);*/
-
-
-
-
-
+   
     }
 
 
