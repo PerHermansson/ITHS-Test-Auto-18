@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class PeterTestClassTest {
+public class UserClassTestShahzad {
 
     @Before
     public void setUp() throws Exception {
@@ -15,7 +15,14 @@ public class PeterTestClassTest {
     }
 
     @Test
-    public void peterTest(){
-        System.out.println("Heja heja friskt hurmör");
+    public void setA() {
+    }
+
+    @Test
+    public void setB() {
+    }
+
+    @Test
+    public void getUserId() {
     }
 }
