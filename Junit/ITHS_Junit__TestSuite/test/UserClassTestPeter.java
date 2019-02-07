@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class UserClassTestPeter{
-    UserClass uc = new UserClass;
+    UserClass uc = new UserClass();
     @Before
     public void setUp() throws Exception {
     }
