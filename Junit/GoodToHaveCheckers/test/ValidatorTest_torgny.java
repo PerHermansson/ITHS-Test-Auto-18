@@ -45,6 +45,9 @@ public class ValidatorTest_torgny {
             "a@"
     };
 
+    /*
+     * Para ihop de giltiga adresserna med true och de ogiltiga med false och returnera listan att parameterisera med.
+     */
     @Parameterized.Parameters
     public static Collection getParameters() {
         ArrayList<Object[]> arrayList = new ArrayList<>();
