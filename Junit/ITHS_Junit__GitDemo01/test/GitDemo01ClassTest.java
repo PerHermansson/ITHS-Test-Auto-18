@@ -86,7 +86,13 @@ public class GitDemo01ClassTest {
         assertFalse(result==1);
     }
 
-     @Test
+    @Test
+    public void shahzad() {
+        GitDemo01Class myObject =new GitDemo01Class ();
+        int result= myObject.alwayszero(33, 33);
+        assertTrue(result==0);
+    }
+    @Test
     public void test_Daniel() {
         GitDemo01Class myObject =new GitDemo01Class ();
 
@@ -98,18 +104,8 @@ public class GitDemo01ClassTest {
     }
 
     @Test
-    public void test_Teresa() {
-        GitDemo01Class myObject =new GitDemo01Class ();
-
-        int result= myObject.alwayszero(60, 40);
-
-       assertTrue(result==0);
-    }
-
-
-    @Test
     public void johan() {
-        System.out.println("SHAHZAD STAHP!");
+        System.out.println("SHAZAD STAHP!");
         /*GitDemo01Class myObject =new GitDemo01Class ();
         int result= myObject.alwayszero(33, 33);
         assertTrue(result==0);
@@ -122,11 +118,6 @@ public class GitDemo01ClassTest {
     @Test
     public void Tony(){
         System.out.println("DU kan vara en stjärna! :@");
-    }
-
-    @Test
-    public void Majid(){
-        System.out.println("Lets see this!");
     }
 }
 
