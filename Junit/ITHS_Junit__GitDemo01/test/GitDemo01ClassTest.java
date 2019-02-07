@@ -65,7 +65,7 @@ public class GitDemo01ClassTest {
 
         int result= myObject.alwayszero(60, 40);
 
-        int result= myObject.alwayszero(33, 33);
+        result= myObject.alwayszero(33, 33);
 
         assertTrue(result==0);
     }
