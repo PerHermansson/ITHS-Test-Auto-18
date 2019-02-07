@@ -50,12 +50,6 @@ public class GitDemo01ClassTest {
         assertTrue(result==0);
     }
 
-    @Test
-    public void shahzad() {
-        GitDemo01Class myObject =new GitDemo01Class ();
-        int result= myObject.alwayszero(33, 33);
-        assertTrue(result==0);
-    }
 
     @Test
     public void test_lisamarie() {
