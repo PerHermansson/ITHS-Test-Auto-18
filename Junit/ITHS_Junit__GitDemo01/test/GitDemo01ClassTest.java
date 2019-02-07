@@ -43,4 +43,10 @@ public class GitDemo01ClassTest {
         int result = myObject.add(1890, 4);
         assertTrue(result == 1894);
     }
+    @Test
+    public void testZeljkaSantrac() {
+        GitDemo01Class myObject =new GitDemo01Class ();
+        int result= myObject.alwayszero(30, 31);
+        assertTrue(result==1988);
+    }
 }
