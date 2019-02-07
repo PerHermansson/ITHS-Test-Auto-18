@@ -16,6 +16,7 @@ public class UserClassTestDaniel {
 
     @Test
     public void setA() {
+        
     }
 
     @Test
