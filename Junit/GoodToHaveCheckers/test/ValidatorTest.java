@@ -17,7 +17,7 @@ public class ValidatorTest {
     public void test_isValidEmail_string() {
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isValidEmail("Hej");
+        result = myValidator.isValidEmail("");
         assertFalse(result);
 
     }
