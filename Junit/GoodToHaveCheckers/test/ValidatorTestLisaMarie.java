@@ -2,7 +2,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ValidatorTest {
+public class ValidatorTestLisaMarie {
+
 
     @Test
     public void test_isValidEmail_integer() {
@@ -17,9 +18,16 @@ public class ValidatorTest {
     public void test_isValidEmail_string() {
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isValidEmail("Hej@du.glade");
-        assertTrue(result);
+        result = myValidator.isValidEmail("Hej");
+        assertFalse(result);
 
+    }
+    @Test
+    public void test_isNotValidEmail_string() {
+        boolean result;
+        Validator myValidator = new Validator();
+        result = myValidator.isValidEmail("A@b@c@example.com");
+        assertTrue(result);
     }
 
 }
