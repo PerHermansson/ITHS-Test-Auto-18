@@ -6,4 +6,6 @@ public class GitDemo01Class {
         return 0;
     }
 
+    // Hello testing phrase...
+
 }
