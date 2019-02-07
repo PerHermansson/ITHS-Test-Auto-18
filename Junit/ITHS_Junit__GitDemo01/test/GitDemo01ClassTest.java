@@ -126,7 +126,7 @@ public class GitDemo01ClassTest {
 
     @Test
     public void Majid(){
-        System.out.println("Lets see!");
+        System.out.println("Lets see this!");
     }
 }
 
