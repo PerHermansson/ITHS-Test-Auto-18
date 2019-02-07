@@ -41,7 +41,7 @@ public class ValidatorTestDaniel {
         boolean result;
         Validator myValidator = new Validator();
         result = myValidator.isValidEmail("ab");
-        assertFalse(result);
+        assertTrue(result);
     }
 
 }
