@@ -12,10 +12,10 @@ public class Validator {
 
         if (addresstocheck.length()<3){
             result = false;
-        }
+        } else
         if (addresstocheck.length()>320){
             result = false;
-        }
+        }  else
         if (addresstocheck.contains("@")){
             result = true;
         }
