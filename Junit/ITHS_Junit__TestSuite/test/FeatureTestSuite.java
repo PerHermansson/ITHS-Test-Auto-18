@@ -1,10 +1,13 @@
 import org.junit.runner.RunWith;
-        import org.junit.runners.Suite;
+import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-        UserClassTest_attempt1.class,
-        UserClassTest_attempt2.class
+        //UserClassTest_attempt1.class,
+        UserClassTest_attempt2.class,
+        UserClassTest_torgny.class,
+        UserClassTestDaniel.class,
+
 })
 
 public class FeatureTestSuite {
