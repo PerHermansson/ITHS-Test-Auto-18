@@ -18,7 +18,7 @@ public class ValidatorTestDaniel {
     public void test_isValidEmail_integer() {
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isValidEmail(2345);
+        result = myValidator.isValidEmail(234665);
         assertFalse(result);
     }
 
@@ -34,6 +34,13 @@ public class ValidatorTestDaniel {
         boolean result;
         Validator myValidator = new Validator();
         result = myValidator.isValidEmail("Abc.example.com");
+        assertFalse(result);
+    }
+    @Test
+    public void test_shortString(){
+        boolean result;
+        Validator myValidator = new Validator();
+        result = myValidator.isValidEmail("ab");
         assertFalse(result);
     }
 

@@ -30,6 +30,22 @@ public class ValidatorTestOxana {
         assertFalse(result);
     }
 
+    @Test
+    public void isValidEmailTest3() {
+        boolean result;
+        Validator myValidator = new Validator();
+        result = myValidator.isValidEmail(1234);
+        assertFalse(result);
+    }
+
+    @Test
+    public void isValidEmailTest4() {
+        boolean result;
+        Validator myValidator = new Validator();
+        result = myValidator.isValidEmail("amhdf///kjqwbd90q83");
+        assertFalse(result);
+    }
+
 
 
 
