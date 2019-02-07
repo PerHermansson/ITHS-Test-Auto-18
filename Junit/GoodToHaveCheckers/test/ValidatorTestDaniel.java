@@ -34,7 +34,8 @@ public class ValidatorTestDaniel {
     public void test_isNotValidEmail_string(){
         boolean result;
         Validator myValidator = new Validator();
-        result = myValidator.isNotValidEmail("Abc.example.com");
+        result = myValidator.isValidEmail("Abc.example.com");
+        assertFalse(result);
     }
 
 }
