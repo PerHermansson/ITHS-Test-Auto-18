@@ -61,7 +61,7 @@ public class GitDemo01ClassTest {
 
     @Test
     public void peter(){
-        System.out.println("Varför lyser inge stjärnor på himlen för oss");
+        System.out.println("Varför lyser inga stjärnor på himlen för oss");
     }
 }
 
