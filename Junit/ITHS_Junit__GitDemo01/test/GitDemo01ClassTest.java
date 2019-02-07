@@ -39,6 +39,6 @@ public class GitDemo01ClassTest {
 
     @Test
     public void andersEklund() {
-        System.out.println("Hello");
+        System.out.println("Hello World");
     }
 }
